@@ -1,16 +1,16 @@
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
 
 const Nav = () => {
     return  <>
             <header>
-                <h1>FRENCH FIGHT</h1>
-                <img src = {logo} alt ='logo' />
+                <h1>REACT_HOOK_PRACTICING</h1>
+                {/* <img src = {logo} alt ='logo' /> */}
                 <nav className="headerNav">
                     <ul>
-                        <li>HOME</li>
-                        <li>EVENTS</li>
+                        <li>useState</li>
+                        <li>useEffect</li>
+                        <li>useRef</li>
                         <li>CONTACT</li>
-                        <li>ABOUT US</li>
                     </ul>
                 </nav>
             </header>
